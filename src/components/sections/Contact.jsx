@@ -5,17 +5,17 @@ import Button from '../ui/Button'
 
 const socialLinks = [
   {
-    href: 'https://github.com/username',
+    href: 'https://github.com/EduardMilitaruG',
     icon: Github,
     label: 'GitHub'
   },
   {
-    href: 'https://linkedin.com/in/username',
+    href: 'https://www.linkedin.com/in/eduardmilitaru/',
     icon: Linkedin,
     label: 'LinkedIn'
   },
   {
-    href: 'mailto:tu@email.com',
+    href: 'mailto:eduardmilitarug@gmail.com',
     icon: Mail,
     label: 'Email'
   }
@@ -34,7 +34,7 @@ export default function Contact() {
           No dudes en escribirme.
         </p>
 
-        <Button href="mailto:tu@email.com" size="lg" className="mb-10">
+        <Button href="mailto:eduardmilitarug@gmail.com" size="lg" className="mb-10">
           <Mail size={18} />
           Enviar email
         </Button>

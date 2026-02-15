@@ -65,22 +65,26 @@ export default function Projects() {
                 </div>
 
                 <div className="flex gap-3">
-                  <Button
-                    href={project.github}
-                    variant="ghost"
-                    size="sm"
-                  >
-                    <Github size={16} />
-                    Code
-                  </Button>
-                  <Button
-                    href={project.demo}
-                    variant="ghost"
-                    size="sm"
-                  >
-                    <ExternalLink size={16} />
-                    Demo
-                  </Button>
+                  {project.github && (
+                    <Button
+                      href={project.github}
+                      variant="ghost"
+                      size="sm"
+                    >
+                      <Github size={16} />
+                      Code
+                    </Button>
+                  )}
+                  {project.demo && (
+                    <Button
+                      href={project.demo}
+                      variant="ghost"
+                      size="sm"
+                    >
+                      <ExternalLink size={16} />
+                      Demo
+                    </Button>
+                  )}
                 </div>
               </div>
             </Card>
