@@ -18,11 +18,11 @@ export default function Hero() {
           </h1>
 
           <p className="text-xl sm:text-2xl text-text-secondary mb-4">
-            Full Stack Developer
+            QA Engineer & Frontend Developer
           </p>
 
           <p className="max-w-xl mx-auto text-text-secondary mb-10 text-balance">
-            Desarrollo aplicaciones web escalables, APIs REST y soluciones de automatización orientadas a negocios.
+            Automatización de pruebas con Playwright y Cypress. Interfaces modernas con React y TypeScript. 2+ años entregando software de calidad en producción.
           </p>
 
           <div className="flex flex-wrap items-center justify-center gap-4">

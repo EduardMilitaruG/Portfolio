@@ -7,7 +7,23 @@
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "test": "npx playwright test",
+    "test:ui": "npx playwright test --ui",
+    "test:headed": "npx playwright test --headed",
+    "test:debug": "npx playwright test --debug",
+    "test:chromium": "npx playwright test --project=chromium",
+    "test:firefox": "npx playwright test --project=firefox",
+    "test:webkit": "npx playwright test --project=webkit",
+    "test:mobile": "npx playwright test --project=mobile-chrome --project=mobile-safari",
+    "test:smoke": "npx playwright test e2e/tests/smoke.spec.js",
+    "test:a11y": "npx playwright test e2e/tests/accessibility/",
+    "test:visual": "npx playwright test e2e/tests/visual/",
+    "test:visual:update": "npx playwright test e2e/tests/visual/ --update-snapshots",
+    "test:perf": "npx playwright test e2e/tests/performance/",
+    "test:seo": "npx playwright test e2e/tests/seo/",
+    "test:report": "npx playwright show-report",
+    "test:local": "BASE_URL=http://localhost:5173 npx playwright test"
   },
   "dependencies": {
     "clsx": "^2.1.1",
@@ -19,7 +35,9 @@
     "tailwind-merge": "^3.4.0"
   },
   "devDependencies": {
+    "@axe-core/playwright": "^4.11.0",
     "@eslint/js": "^9.39.1",
+    "@playwright/test": "^1.58.0",
     "@tailwindcss/postcss": "^4.1.18",
     "@types/react": "^19.2.5",
     "@types/react-dom": "^19.2.3",

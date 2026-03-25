@@ -1,12 +1,14 @@
 import Section from '../layout/Section'
 
 const skills = [
-  'JavaScript / TypeScript',
-  'React / Node.js',
-  'HTML5 / CSS3',
-  'PostgreSQL / MySQL',
-  'Python / APIs REST',
-  'Git / GitHub'
+  'Playwright / Cypress',
+  'Jest / Supertest',
+  'React / TypeScript',
+  'Node.js / APIs REST',
+  'HTML5 / CSS3 / Tailwind',
+  'PostgreSQL / SQLite',
+  'Docker / GitHub Actions',
+  'Python / Automatización'
 ]
 
 export default function About() {
@@ -20,22 +22,19 @@ export default function About() {
 
           <div className="space-y-4 text-text-secondary">
             <p>
-              Soy desarrollador con más de 1 año de experiencia en el desarrollo de aplicaciones web, APIs REST y automatización de procesos.
+              QA Engineer y Frontend Developer con más de 2 años de experiencia en automatización de pruebas, desarrollo web y entrega de software de calidad en producción.
             </p>
 
             <p>
-              He participado en proyectos para organismos públicos y empresas locales,
-               involucrándome en todo el ciclo de vida del software:
-                desde el análisis funcional y diseño de la solución, hasta el despliegue y soporte en producción
+              He trabajado en proyectos para organismos públicos y empresas locales, cubriendo todo el ciclo: análisis funcional, desarrollo, testing automatizado y despliegue en producción.
             </p>
 
             <p>
-              Me enfoco en escribir código limpio, construir soluciones eficientes y trabajar en equipos colaborativos
-              orientados a crear productos reales que aporten valor al negocio.
+              Especializado en Playwright, Cypress y Jest para suites de testing E2E, unitarias e integración. En frontend, construyo interfaces modernas con React y TypeScript enfocadas en rendimiento y accesibilidad.
             </p>
 
             <p>
-              Además, cuento con conocimientos en sistemas IoT, integrando hardware y software en proyectos de monitoreo remoto y automatización.
+              Trilingüe (español, inglés, rumano). Abierto a posiciones en Valencia, Madrid, remoto o fuera de España.
             </p>
           </div>
         </div>
