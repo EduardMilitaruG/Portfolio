@@ -28,12 +28,12 @@ export const projects = [
   },
   {
     id: 4,
-    title: 'MiTiempo',
-    description: 'Real-time weather app with current conditions and 5-day forecast. Clean UI with city search and meteorological data from OpenWeatherMap.',
+    title: 'Archive Scout',
+    description: 'Python automation bot that monitors Japanese secondhand marketplaces (Yahoo Auctions via ZenMarket) for underpriced archive fashion. Deal scoring engine, Cloudflare bypass via TLS fingerprint impersonation, and real-time Telegram + Discord alerts.',
     image: null,
-    tech: ['React', 'OpenWeatherMap API', 'CSS'],
-    github: 'https://github.com/EduardMilitaruG/Weather-Dashboard-JS',
-    demo: 'https://mi-tiempo.vercel.app'
+    tech: ['Python', 'AsyncIO', 'Telegram Bot', 'Discord Bot', 'SQLite', 'BeautifulSoup'],
+    github: 'https://github.com/EduardMilitaruG/archive-scout',
+    demo: null
   },
   {
     id: 5,
@@ -43,14 +43,5 @@ export const projects = [
     tech: ['React', 'TypeScript', 'Tailwind CSS', 'PWA', 'Vite'],
     github: null,
     demo: 'https://fitness-tracker-indol-seven.vercel.app'
-  },
-  {
-    id: 6,
-    title: 'JobFy',
-    description: 'Python CLI scraper that extracts job listings from multiple portals, stores them in SQLite and exposes a React dashboard with filtering, pagination and analytics charts.',
-    image: null,
-    tech: ['Python', 'FastAPI', 'React', 'SQLite', 'BeautifulSoup'],
-    github: 'https://github.com/EduardMilitaruG/JobFy',
-    demo: null
   }
 ]
