@@ -43,10 +43,20 @@ export default function Projects() {
           <motion.div key={project.id} variants={itemVariants}>
             <Card className="h-full flex flex-col">
               <div className="aspect-video bg-bg-primary relative overflow-hidden">
-                <div className="absolute inset-0 bg-gradient-to-br from-accent/20 to-transparent" />
-                <div className="absolute inset-0 flex items-center justify-center text-text-secondary">
-                  <span className="text-sm">Preview</span>
-                </div>
+                {project.image ? (
+                  <img
+                    src={project.image}
+                    alt={`${project.title} demo`}
+                    className="w-full h-full object-cover"
+                  />
+                ) : (
+                  <>
+                    <div className="absolute inset-0 bg-gradient-to-br from-accent/20 to-transparent" />
+                    <div className="absolute inset-0 flex items-center justify-center text-text-secondary">
+                      <span className="text-sm">Preview</span>
+                    </div>
+                  </>
+                )}
               </div>
 
               <div className="p-6 flex flex-col flex-1">

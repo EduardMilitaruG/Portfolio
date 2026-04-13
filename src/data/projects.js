@@ -1,5 +1,14 @@
 export const projects = [
   {
+    id: 0,
+    title: 'FlipScout',
+    description: 'Japanese arbitrage dashboard. Monitors Yahoo Auctions JP and Mercari JP for underpriced tech, Pokémon cards and fashion — calculates real EUR margins including EMS shipping and platform fees — and snipers Wallapop/Vinted for matching resale listings. React 19 + FastAPI, deployed on Vercel + Railway.',
+    image: '/projects/flipscout-demo.gif',
+    tech: ['React 19', 'FastAPI', 'Python', 'SQLite', 'Playwright', 'Tailwind CSS', 'Railway', 'Vercel'],
+    github: 'https://github.com/EduardMilitaruG/flipscout',
+    demo: 'https://dashboard-two-pearl-54.vercel.app'
+  },
+  {
     id: 1,
     title: 'JobFy v2',
     description: 'Full-stack job scraper dashboard. TypeScript monorepo with React 19, Node.js, PostgreSQL and Prisma. Features async multi-source scraping, real-time status polling, stats dashboard and CI/CD pipeline with GitHub Actions.',
