@@ -48,12 +48,3 @@ export async function openMobileMenu(page) {
   // Wait for nav to become visible
   await page.waitForTimeout(300)
 }
-
-/**
- * Close the mobile hamburger menu.
- */
-export async function closeMobileMenu(page) {
-  const button = page.locator(sel.MOBILE_MENU_BUTTON)
-  await button.click()
-  await page.waitForTimeout(300)
-}
