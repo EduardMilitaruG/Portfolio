@@ -52,5 +52,25 @@ export const projects = [
     tech: ['React', 'TypeScript', 'Tailwind CSS', 'PWA', 'Vite'],
     github: null,
     demo: 'https://fitness-tracker-indol-seven.vercel.app'
+  },
+  {
+    id: 6,
+    title: 'Coches Compraventa Bot',
+    description: 'Telegram bot + web dashboard for the Spanish used car market. Monitors Wallapop and Milanuncios for underpriced listings, scores deals against market value, and sends real-time Telegram alerts with buy/pass recommendations.',
+    image: null,
+    tech: ['Python', 'Telegram Bot API', 'FastAPI', 'SQLite', 'Playwright', 'Tailwind CSS'],
+    github: 'https://github.com/EduardMilitaruG/coches-compraventa-bot',
+    demo: null,
+    wip: true
+  },
+  {
+    id: 7,
+    title: 'Totalscope Studio',
+    description: 'Website for a creative studio. Built with Astro for fast static delivery, featuring a project gallery, aerial photography section, and a bespoke grain + custom cursor aesthetic.',
+    image: null,
+    tech: ['Astro', 'TypeScript', 'CSS'],
+    github: 'https://github.com/EduardMilitaruG/totalscope',
+    demo: null,
+    wip: true
   }
 ]

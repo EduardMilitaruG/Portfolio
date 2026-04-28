@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion'
-import { ExternalLink, Github } from 'lucide-react'
+import { ExternalLink, Github, Construction } from 'lucide-react'
 import Section from '../layout/Section'
 import Card from '../ui/Card'
 import TechBadge from '../ui/TechBadge'
@@ -56,6 +56,12 @@ export default function Projects() {
                       <span className="text-sm">Preview</span>
                     </div>
                   </>
+                )}
+                {project.wip && (
+                  <div className="absolute top-3 right-3 flex items-center gap-1.5 px-2.5 py-1 rounded-full bg-amber-500/15 border border-amber-500/30 text-amber-400 text-xs font-medium">
+                    <Construction size={12} />
+                    Work in Progress
+                  </div>
                 )}
               </div>
 
